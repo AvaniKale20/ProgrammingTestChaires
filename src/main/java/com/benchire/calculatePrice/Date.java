@@ -1,8 +1,5 @@
 package com.benchire.calculatePrice;
 
-import java.util.Objects;
-import java.util.function.Predicate;
-
 public class Date {
     private String month;
     private int year;
@@ -16,4 +13,7 @@ public class Date {
         return month;
     }
 
+    public int getYear() {
+        return year;
+    }
 }
